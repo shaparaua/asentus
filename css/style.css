@@ -158,4 +158,63 @@ p {
 
 }
 
+/*tajem===============*/
+
+.tajem {
+
+    width: 100%;
+    height: 410px;
+}
+
+.tajem__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tajem__left {
+    display: flex;
+    width: 50%;
+    float: right;
+    margin-top: 65px;
+}
+
+.tajem__right {
+    width: 50%;
+    float: left;
+}
+
+.tajem__title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413D4B;
+    margin-top: 65px;
+}
+
+.tajem__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn--about {
+
+    font-family: 'Hammersmith One', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00E0D0;
+    text-decoration: none;
+    border: 1px solid #00E0D0;
+    padding: 8px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 450px;
+}
+
+
 
