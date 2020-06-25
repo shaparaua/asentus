@@ -8,6 +8,33 @@
     <title>tajem_master</title>
 </head>
 <!--sprite===========-->
+<svg style="display: none;">
+    <symbol id="facebook" viewBox="0 0 7 15">
+        <g>
+            <image width="7" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAPCAYAAAAoAdW+AAAABHNCSVQICAgIfAhkiAAAALpJREFUGFet0LFKglEUAOBPMFqc3Jxae4t6Aycdk6IgAgnXHqDBSVyCGjSa6gXyHQQHaW9xcBEaA4k/DpwL/wN4lnvu/Q73HE6jqioZ53jAKY6waSR28IV2qcS+YA8fCTt84rvgAPPEJ9xFHniCPsaJr3jEX2D0ioJW4i9+sA2My3FtkJKuAkc4Qzdfl1hgXQaKnu+JU9yXgeK8wXNiTH1Zx2u8JM5wdRi8RWwm4g0X9W9jfRM0c43DwH9eJVA9v8cmfwAAAABJRU5ErkJggg=="/>
+        </g>
+    </symbol>
+    <symbol id="instagram" viewBox="0 0 15 15">
+        <g>
+            <image width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABHNCSVQICAgIfAhkiAAAAVpJREFUKFON079LllEYxvHP6w8USRdnUSIRpAgJw8BVB7cW/4AgREEM/ANSBxelIsJBamhycFVQdwVFKlBBRMEWMcRBjECNHrnjPCAvj/Ce5cA59/f+ca7rlLIsq8cHdKEameLVjEZcYwVjpSzL5jB8D1B+/AcN6fBrwJt4XgHci/UUF939DHgNfRXAtfh7Bz4MeBX9BfA3HKANPZhOlZuwgM2AlzFQBk9g8s7ZKD6WxSwFvIEXGMEMTvGooJMtdCMSvcP3gHfRjrok0yIGC+BZjKOEM5wH/ANPksY3OEHrPW+Qe+Eif+2An6aMMetbTKU9z/EG7zGPodThXl45hyN4G8/wCzvoQAsO0YnoLnT+D0fA41Q5rxSyjCU3hR0/pXnz+4D3Az7CwzI4D3qA3wXzB3wc8Be8Su2Ed2P9wyWukgrxIarSXXykUGYh4Mj+GS9RU4FNw6JLeH0LulZ4UB1kEf0AAAAASUVORK5CYII="/>
+        </g>
+    </symbol>
+    <symbol id="google" viewBox="0 0 15 14">
+        <g>
+            <image width="15" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAABHNCSVQICAgIfAhkiAAAAUxJREFUKFOV0j9IllEUx/GPs4NLGNgiRJAmQYIYGNHgoAjqoC2Cq5sODjbYoDgEQkNL4CQ6uQhKDQ4SWKAoQYN/EHRQFE0RDHIQpVcunEceX23wwAOX+5zv75zfPaekUCiIqMQwDtCGJ5jHd3zCH3zFKboSUxLwA+xiEB9RjTXsIIlmsYITNOXhKbxNYrnEAXxAM96gA4/wL7pbyCof4mER/BhbGMI2XqEV55jDagZ/QQvqsRzVy/E7/M/GXbJyHJ1ce67CeiS8wC9MoAKNOSvpPc7wPu85nZ9jBJfhLbX3OgfeOmZt53+U4i9m0H4fuCbmOx3QJLr/J5BVrsUoNuI7Qn884Bh67hJIcLYQaYv6ipJ+oCHGmARvRIIX8bJoxllSWoo9PMtN41ogwT+R2n6KzSLxToyjLKZwq3JdLPw+erGEixD8jHf4dpfnK8LKavBhJKHxAAAAAElFTkSuQmCC"/>
+        </g>
+    </symbol>
+    <symbol id="dribbble4" viewBox="0 0 16 16">
+        <g>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaNJREFUOE9t00uojlEYxfHfF0qZuBad5DKRCYUS6QzEoWSAJBlRGLiEgRgdTJTLyKWUouSEgZIimTGjk4FyKSIpdyZCik9L+63d27dnb++z/8+z1rN2p9vt6nGWYTVWoYMnuILL7dpOCzAHdzC5FB7DWMzDAnzDCjxsQDVgJW7jFF7iJEZWHUfjMPZjA67lXwNIx3cYxJFy6S1GYEoFGYPv5XsGXjeA5/iFuVXxBHzGZlzEvjLVJizHAPoCiLZoilntE0mRdh+LkctXMQq/0R/AoTL6XszENMzCVHzEdDwqRtYNXmA4gPNYhz+F+gmRdKOs7QQ2Ig1m4yeeFkndAB4UY5b2kHAUuxDzvpaJMv44ZCtDAZzDWkyqAAnS3fK9DbvxDOurmvepCSAhGcZEfCnjDiHStpYLO3C6ZXQiPNCs8U2B7MlusRNnqm5JY1K4EJF8E0sipQHE6VdVt7M9/PiBg6VR1prYP66jvAbXcRwH8LcFiYRIydmCC3WUm9qMeAvjca90i9b5WIQP2F7ezP877dfYgGJeHkxClYTGo0tN13qyf8t9iQgVn0zaAAAAAElFTkSuQmCC"/></svg>
+        </g>
+    </symbol>
+    <symbol id="youtube" viewBox="0 0 17 11">
+        <g>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16"><image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaNJREFUOE9t00uojlEYxfHfF0qZuBad5DKRCYUS6QzEoWSAJBlRGLiEgRgdTJTLyKWUouSEgZIimTGjk4FyKSIpdyZCik9L+63d27dnb++z/8+z1rN2p9vt6nGWYTVWoYMnuILL7dpOCzAHdzC5FB7DWMzDAnzDCjxsQDVgJW7jFF7iJEZWHUfjMPZjA67lXwNIx3cYxJFy6S1GYEoFGYPv5XsGXjeA5/iFuVXxBHzGZlzEvjLVJizHAPoCiLZoilntE0mRdh+LkctXMQq/0R/AoTL6XszENMzCVHzEdDwqRtYNXmA4gPNYhz+F+gmRdKOs7QQ2Ig1m4yeeFkndAB4UY5b2kHAUuxDzvpaJMv44ZCtDAZzDWkyqAAnS3fK9DbvxDOurmvepCSAhGcZEfCnjDiHStpYLO3C6ZXQiPNCs8U2B7MlusRNnqm5JY1K4EJF8E0sipQHE6VdVt7M9/PiBg6VR1prYP66jvAbXcRwH8LcFiYRIydmCC3WUm9qMeAvjca90i9b5WIQP2F7ezP877dfYgGJeHkxClYTGo0tN13qyf8t9iQgVn0zaAAAAAElFTkSuQmCC"/></svg>
+        </g>
+    </symbol>
+
 <!--header-->
 <body>
 <header class="header">
@@ -151,6 +178,95 @@
     </div>
     <a class="btn--work" href="#">LOAD MORE</a>
 </div><!--works/////////==========================-->
+<!--Testimonials-->
+<div class="testimonials">
+    <div class="container">
+        <div class="testimonials__text">
+            <p class="testimonials__title">“</p>
+            <p class="text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+        </div>
+        <div class="testimonials__author">JANE GALADRIEL</div>
+        <div class="testimonials__profession">CEO TENGKUREP</div>
+    </div>
+</div> <!--Testimonials////////////////-->
+<!--Contact=============-->
+<div class="contact">
+    <div class="container">
+        <div class="contact__item">
+            <div class="contact__left">
+            <h1 class="contact__title">GIVE US A GOOD NEWS</h1>
+                <form class="contact__form">
+                    <div class="contact__field">
+                       <input class="contact__input" type="text" name="Name" placeholder="Name">
+                   </div>
+                   <div class="contact__field">
+                       <input class="contact__input" type="text" name="Email" placeholder="Email">
+                   </div>
+                   <div class="contact__field">
+                       <input class="contact__input" type="text" name="Subject" placeholder="Subject">
+                   </div>
+                   <div class="contact__massage">
+                       <input class="contact__massage" type="text" name="Your Massage" placeholder="Your Massage">
+                   </div>
+                   <div class="contact__submit">
+                       <button class="contact__buutton" type="submit" name="SUBMIT">SUBMIT
+                       </button>
+                   </div>
+               </form>
+            </div>
+
+            <div class="contact__right">
+                <div class="img__left">
+                    <img class="contact__img" src="img/1280px-Barneys_New_York_Logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/1280px-Gucci_Logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/1280px-Levi's_logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/1280px-Logo_NIKE.svg.jpg" alt="">
+                    <img class="contact__img" src="img/Billabong.svg.jpg" alt="">
+                    <img class="contact__img" src="img/Zara_Logo.svg.jpg" alt="">
+                </div>
+                    <div class="img__right">
+                    <img class="contact__img" src="img/Calvin_klein_logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/Converse_logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/Zara_Logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/Puma_Logo.svg.jpg" alt="">
+                    <img class="contact__img" src="img/Logo_of_Mango_(new).svg.jpg" alt="">
+                    <img class="contact__img" src="img/Puma_Logo.svg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!--Contact//////////=============-->
+<!--footer=================-->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__item">
+            <div class="footer__left">
+                <div class="footer__logo">
+                    <img class="header__square" src="img/gggg.png" alt="">
+                    <img class="footer-logo" src="img/Gradient%20Overlay.png" alt="">
+                </div>
+                <div class="footer__text">
+                    <p>lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</p>
+                </div>
+
+            </div>
+            <div class="footer__midl">
+                <div class="footer__title">OUR STUDIO</div>
+                <div class="footer__address">
+                    <address class="footer__add">
+                        Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+                        11480 - Indonesia
+                    </address>
+                </div>
+                <div class="footer__phone">(+62) 21-2224 3333</div>
+            </div>
+            <div class="footer__right">
+                <div class="footer__title">STAY IN TOUCH</div>
+                <div class="footer__newsletter"></div>
+            </div>
+        </div>
+    </div>
+</footer> <!--footer=================////-->
 </body>
 </html>
 
