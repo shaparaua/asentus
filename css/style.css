@@ -414,13 +414,17 @@ p {
 }
 
 .works__title {
-
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413D4B;
     float: left;
     margin-bottom: 65px;
     margin-top: 65px;
 }
 
 .btn--works {
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 14px;
@@ -429,6 +433,15 @@ p {
     float: right;
     margin-bottom: 65px;
     margin-top: 65px;
+
+}
+
+.pointer {
+    position: absolute;
+    top: 3px;
+    color: #413D4B;
+    left: 165px;
+    z-index: 0;
 }
 
 .works__item {
