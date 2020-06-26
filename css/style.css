@@ -702,6 +702,23 @@ p {
     font-style: normal;
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.footer__svg {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+
+}
+
+.footer__svg2 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: -25px;
 }
 
 .footer__phone {
@@ -709,6 +726,8 @@ p {
     font-weight: 300;
     font-size: 14px;
     color: #fff;
+    margin-left: 30px;
+    position: relative;
 }
 
 .footer__right {
