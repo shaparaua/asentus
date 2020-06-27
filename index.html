@@ -8,53 +8,7 @@
     <title>tajem_master</title>
 </head>
 <!--sprite===========-->
-<svg style="display: none;">
-    <symbol id="facebook" viewBox="0 0 7 15">
-        <g>
-            <image width="7" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAPCAYAAAAoAdW+AAAABHNCSVQICAgIfAhkiAAAALpJREFUGFet0LFKglEUAOBPMFqc3Jxae4t6Aycdk6IgAgnXHqDBSVyCGjSa6gXyHQQHaW9xcBEaA4k/DpwL/wN4lnvu/Q73HE6jqioZ53jAKY6waSR28IV2qcS+YA8fCTt84rvgAPPEJ9xFHniCPsaJr3jEX2D0ioJW4i9+sA2My3FtkJKuAkc4Qzdfl1hgXQaKnu+JU9yXgeK8wXNiTH1Zx2u8JM5wdRi8RWwm4g0X9W9jfRM0c43DwH9eJVA9v8cmfwAAAABJRU5ErkJggg=="/>
-        </g>
-    </symbol>
-    <symbol id="instagram" viewBox="0 0 15 15">
-        <g>
-            <image width="15" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPCAYAAAA71pVKAAAABHNCSVQICAgIfAhkiAAAAVpJREFUKFON079LllEYxvHP6w8USRdnUSIRpAgJw8BVB7cW/4AgREEM/ANSBxelIsJBamhycFVQdwVFKlBBRMEWMcRBjECNHrnjPCAvj/Ce5cA59/f+ca7rlLIsq8cHdKEameLVjEZcYwVjpSzL5jB8D1B+/AcN6fBrwJt4XgHci/UUF939DHgNfRXAtfh7Bz4MeBX9BfA3HKANPZhOlZuwgM2AlzFQBk9g8s7ZKD6WxSwFvIEXGMEMTvGooJMtdCMSvcP3gHfRjrok0yIGC+BZjKOEM5wH/ANPksY3OEHrPW+Qe+Eif+2An6aMMetbTKU9z/EG7zGPodThXl45hyN4G8/wCzvoQAsO0YnoLnT+D0fA41Q5rxSyjCU3hR0/pXnz+4D3Az7CwzI4D3qA3wXzB3wc8Be8Su2Ed2P9wyWukgrxIarSXXykUGYh4Mj+GS9RU4FNw6JLeH0LulZ4UB1kEf0AAAAASUVORK5CYII="/>
-        </g>
-    </symbol>
-    <symbol id="google" viewBox="0 0 15 14">
-        <g>
-            <image width="15" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAOCAYAAADwikbvAAAABHNCSVQICAgIfAhkiAAAAUxJREFUKFOV0j9IllEUx/GPs4NLGNgiRJAmQYIYGNHgoAjqoC2Cq5sODjbYoDgEQkNL4CQ6uQhKDQ4SWKAoQYN/EHRQFE0RDHIQpVcunEceX23wwAOX+5zv75zfPaekUCiIqMQwDtCGJ5jHd3zCH3zFKboSUxLwA+xiEB9RjTXsIIlmsYITNOXhKbxNYrnEAXxAM96gA4/wL7pbyCof4mER/BhbGMI2XqEV55jDagZ/QQvqsRzVy/E7/M/GXbJyHJ1ce67CeiS8wC9MoAKNOSvpPc7wPu85nZ9jBJfhLbX3OgfeOmZt53+U4i9m0H4fuCbmOx3QJLr/J5BVrsUoNuI7Qn884Bh67hJIcLYQaYv6ipJ+oCHGmARvRIIX8bJoxllSWoo9PMtN41ogwT+R2n6KzSLxToyjLKZwq3JdLPw+erGEixD8jHf4dpfnK8LKavBhJKHxAAAAAElFTkSuQmCC"/>
-        </g>
-    </symbol>
-    <symbol id="dribbble4" viewBox="0 0 16 16">
-        <g>
-            <image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaNJREFUOE9t00uojlEYxfHfF0qZuBad5DKRCYUS6QzEoWSAJBlRGLiEgRgdTJTLyKWUouSEgZIimTGjk4FyKSIpdyZCik9L+63d27dnb++z/8+z1rN2p9vt6nGWYTVWoYMnuILL7dpOCzAHdzC5FB7DWMzDAnzDCjxsQDVgJW7jFF7iJEZWHUfjMPZjA67lXwNIx3cYxJFy6S1GYEoFGYPv5XsGXjeA5/iFuVXxBHzGZlzEvjLVJizHAPoCiLZoilntE0mRdh+LkctXMQq/0R/AoTL6XszENMzCVHzEdDwqRtYNXmA4gPNYhz+F+gmRdKOs7QQ2Ig1m4yeeFkndAB4UY5b2kHAUuxDzvpaJMv44ZCtDAZzDWkyqAAnS3fK9DbvxDOurmvepCSAhGcZEfCnjDiHStpYLO3C6ZXQiPNCs8U2B7MlusRNnqm5JY1K4EJF8E0sipQHE6VdVt7M9/PiBg6VR1prYP66jvAbXcRwH8LcFiYRIydmCC3WUm9qMeAvjca90i9b5WIQP2F7ezP877dfYgGJeHkxClYTGo0tN13qyf8t9iQgVn0zaAAAAAElFTkSuQmCC"/>
-        </g>
-    </symbol>
-    <symbol id="youtube" viewBox="0 0 17 11">
-        <g>
-            <image width="16" height="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaNJREFUOE9t00uojlEYxfHfF0qZuBad5DKRCYUS6QzEoWSAJBlRGLiEgRgdTJTLyKWUouSEgZIimTGjk4FyKSIpdyZCik9L+63d27dnb++z/8+z1rN2p9vt6nGWYTVWoYMnuILL7dpOCzAHdzC5FB7DWMzDAnzDCjxsQDVgJW7jFF7iJEZWHUfjMPZjA67lXwNIx3cYxJFy6S1GYEoFGYPv5XsGXjeA5/iFuVXxBHzGZlzEvjLVJizHAPoCiLZoilntE0mRdh+LkctXMQq/0R/AoTL6XszENMzCVHzEdDwqRtYNXmA4gPNYhz+F+gmRdKOs7QQ2Ig1m4yeeFkndAB4UY5b2kHAUuxDzvpaJMv44ZCtDAZzDWkyqAAnS3fK9DbvxDOurmvepCSAhGcZEfCnjDiHStpYLO3C6ZXQiPNCs8U2B7MlusRNnqm5JY1K4EJF8E0sipQHE6VdVt7M9/PiBg6VR1prYP66jvAbXcRwH8LcFiYRIydmCC3WUm9qMeAvjca90i9b5WIQP2F7ezP877dfYgGJeHkxClYTGo0tN13qyf8t9iQgVn0zaAAAAAElFTkSuQmCC"/>
-        </g>
-    </symbol>
-    <symbol id="twitter" viewBox="0 0 14 11">
-        <g>
-            <image width="7" height="15" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAPCAYAAAAoAdW+AAAABHNCSVQICAgIfAhkiAAAALpJREFUGFet0LFKglEUAOBPMFqc3Jxae4t6Aycdk6IgAgnXHqDBSVyCGjSa6gXyHQQHaW9xcBEaA4k/DpwL/wN4lnvu/Q73HE6jqioZ53jAKY6waSR28IV2qcS+YA8fCTt84rvgAPPEJ9xFHniCPsaJr3jEX2D0ioJW4i9+sA2My3FtkJKuAkc4Qzdfl1hgXQaKnu+JU9yXgeK8wXNiTH1Zx2u8JM5wdRi8RWwm4g0X9W9jfRM0c43DwH9eJVA9v8cmfwAAAABJRU5ErkJggg=="/>
-        </g>
-    </symbol>
-    <symbol id="paper122" viewBox="0 0 25 25">
-        <g>
-            <image id="paper122" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABHNCSVQICAgIfAhkiAAAAjJJREFUSEu11UmozQEUBvDfk1CEiIQks4wryRhJho0ks2xkocwWxhJK5mJtSIaQlAU2LEiUJGQoYUEyK1bI0NF5ut3uu+8+7jub2/3/z/2+853znXNrNF70xGZMqGkEjj5YhcUI/NvVJBmGnRhbVHj3apAMx26MxFN8R78kOo75/0MyMSsfgp+YlOCL8B7j0RHv/oVkCvaib4KvxH7MxklE2+LzGaKQP4OpNOZk5V3xEWtwOH+8K793CDclSTt8qpRkAfahPV6nc6LS2jiGeeiPx/iFM5hZm1BOyVJsQ2s8xDqcL5J9MWfRK4d+BAvRAl/LkaxGyI8C7mblV0r09AbCWZ3wBq3wBaEs1P+NWiXNsQQbsi0BuhEBVCqiLd2S4HMmRItmILC+FZPEdu7JhzcxCj/KuOEtmmUxtXltc8jhsuXFvw0lk7Ei7RaDDdfEEhVHG7zCy7Rv4fvLuRclZ1z4MJbpIDrnMsXtOZdIsVTR9/sYXMQeln6B7VhfqgOlmDdhSyaHew4hXHML40qAXMXocjtXl4W75BZPT9CzOdRijrDuE6zFjrrmWN/GT8uWXcDUEiD3MKi+y1EfSeCeyu0N110vIBqKO1iGA2XcWNHtihv0AQ8wsADsEXqjaTmCeFeJksiL/4u4BGNwDSNSVZyQo9UiCZw4fM/RIy0bClvWR9AQJZEbSkLRCczFLJyuNkngxdLF8sVVHlAJQUOVRH4cwDiEcYouNRZJk7zUWysliLzfagdq7HCOdSMAAAAASUVORK5CYII="/>
-        </g>
-    </symbol>
-    <symbol id="phone351" viewBox="0 0 17 17">
-        <g>
-            <image id="phone351" width="17" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCSVQICAgIfAhkiAAAAXlJREFUOE+V1L+rjmEcBvDPW7JefpRikIWSwSahKMQpMTkniQxsVixEYbNIFkQMOkwW8lsZiMEgUf4BdIrzNVlOR7eeVwjnfZ/1ue9Pz33d1/fpTU9PG/apqrdYjpVJXveGRarqOjbhNvZh1VBIVe3BNSTJ16oax9jASFWtwBuMJLnbIqiqOfgyDDKKG5if5HOHnMXOgZFu0wkcx4IkE1XVbmV0WOQALiTpVdULTCVZMzBSVSO4g8XYgouYlWRqIKSqVuM5duM+JrA+ydN2zBmRqtqAJziU5EyXw9Ekp/sl/Q2pqmVYl+RyF2Qr0xUcTHK+A24mGfu15T+RqtrfQmtfh0v4gGPYnORhB9xLsvXPMfmBVNVV7MV2vMTHbuE8LOpKNp5k19/mrDc5OfkOc7th+tRfVFWzcRgn2xclOfWvQW1IK8yzJGt/ARbiAVrVNyZ5/L9Jb8hSvMcjnMM2tHzaVe5I8m2mX0U/kyV41R2rgUeS3Jppc//9d39ou2wSGoZ6AAAAAElFTkSuQmCC"/>
-        </g>
-    </symbol>
-    <symbol id="big104" viewBox="0 0 14 19">
-        <g>
-            <image id="big104" width="14" height="19" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAATCAYAAACgADyUAAAABHNCSVQICAgIfAhkiAAAAcxJREFUOE91k82LjmEUh6+3GbNQuhB/gMjC1soCG1koRUjykRRDYWE0PhojMWp8RlHYkEhMCgsLWSBlbWdjYaVs3mMjNWZ03u5nul/zOqvnPudc9znnd+6nNT09TWMRsRgYBzYD84s/gJfAsPq9yW01YERsA54CmXgf+FiSVgF7gQXALvVR+jtgBV1Wh2daqD4i4iJwCtipPm612+15wE/gunqsF1SNMgacBhYm+BDYofZXCYPAhewIOKveqmK/gVcJpjpX1eMZjIijwA3gNjAFHAZOqJdK/Dww0oDr1LclkBeNqSPlPAqcA/rUqYhYDbxvwPXqm4jI1rJKtv6kgFuACWCOOhkRa4B3CaYwE+q+kpjAdmBtueQD8ELdVOJ3gN0JZhujalbrWETkwjeW42t1QxXLUcYT7AMmgQPqvSpheaqqfql8e4AHwEDzAFLBQ3XV/zyCrHZXHayfXDrPqLm/WRYRufhUuzNSDR4BbgJz1V81GREDQC5+SL3WBRZRfgDf1JX/gJ+AZeqixj9TsYBLgK/AQTVlT4X351zAUjVjHesCS+IQcAXIS/5kB8BJNf/TGZsFFvgZsLVkPVfz9XRZT7DAn4F+dUUvlf8C3OXusCCNAdQAAAAASUVORK5CYII="/>
-        </g>
-    </symbol>
-    </svg>
+
 <!--header-->
 <body>
 <header class="header">
@@ -281,7 +235,7 @@
                 <div class="footer__address">
                     <div class="address__svg">
                         <svg class="footer__svg">
-                            <use xlink:href="#big104"></use>
+                            <use xlink:href="css/sprite.svg#geo"></use>
                         </svg>
                     </div>
                     <address class="footer__add">
@@ -292,7 +246,7 @@
                 <div class="footer__phone">
                     <div class="address__svg">
                         <svg class="footer__svg2">
-                            <use xlink:href="#phone351"></use>
+                            <use xlink:href="css/sprite.svg#phone"></use>
                         </svg>
                     </div>
                 <p class="tel">(+62) 21-2224 3333</p>
@@ -308,7 +262,7 @@
                        <div class="footer__submit">
                            <button class="footer__buutton"     type="submit" name="SUBMIT">
                                <svg class="footer__btn">
-                                   <use xlink:href="#paper122"></use>
+                                   <use xlink:href="css/sprite.svg#telegram"></use>
                                </svg>
                            </button>
                        </div>
@@ -317,32 +271,32 @@
                 <div class="footer__social">
                     <a class="footer__item" href="#" target="_blank">
                         <svg class="footer__icon">
-                            <use xlink:href="#facebook"></use>
+                            <use xlink:href="css/sprite.svg#facebook"></use>
                         </svg>
                     </a>
                     <a class="footer__item" href="#" target="_blank">
                         <svg class="footer__icon">
-                            <use xlink:href="#instagram"></use>
+                            <use xlink:href="css/sprite.svg#instagram"></use>
                         </svg>
                     </a>
                     <a class="footer__item" href="#" target="_blank">
                         <svg class="footer__icon">
-                            <use xlink:href="#google"></use>
+                            <use xlink:href="css/sprite.svg#google"></use>
                         </svg>
                     </a>
                     <a class="footer__item" href="#" target="_blank">
                         <svg class="footer__icon">
-                            <use xlink:href="#twitter"></use>
+                            <use xlink:href="css/sprite.svg#twitter"></use>
                         </svg>
                     </a>
                     <a class="footer__item" href="#" target="_blank">
                         <svg class="footer__icon">
-                            <use xlink:href="#dribbble4"></use>
+                            <use xlink:href="css/sprite.svg#dribbble"></use>
                         </svg>
                     </a>
                     <a class="footer__item" href="#" target="_blank">
                         <svg class="footer__icon">
-                            <use xlink:href="#youtube"></use>
+                            <use xlink:href="css/sprite.svg#youtube"></use>
                         </svg>
                     </a>
                 </div>
